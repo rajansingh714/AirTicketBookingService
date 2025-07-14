@@ -23,7 +23,7 @@ const ServerSetUp = async () => {
         });
 
         if(process.env.DB_SYNC) {
-            db.sequelize.sync({ alter: true });
+            // db.sequelize.sync({ alter: true });
         }
 }
 
